@@ -3,7 +3,7 @@ Generate a bitcoin wallet using hex dice
 
 ## usage   
 `source makeaddress.sh`    
-`newAddress 0x<64 dice rolls>`   
+`newAddress 0x<roll the dice 64 times and put results here>`   
 ## If using 16 sided dice without HEX notation   
 If your dice only has 'numbers' and no letters you need to convert the two-digit numbers into hexadecimal notation.   
 Replace two-digit numbers as follows:   
