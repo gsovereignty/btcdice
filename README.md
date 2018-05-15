@@ -1,5 +1,7 @@
 # btcdice
-Generate a bitcoin wallet using hex dice
+This script will use the cryptographic toolset usually included out of the box on most unix/Linux distributions to generate a bitcoin wallet. You will need 16 sided dice to generate the entropy for this script, the dice can be hexadecimal dice (0-F) or they can be 16 sided dice using regular numbers (1-16). 
+
+I use this to generate my own offline wallets for cold storage, but if you are unable to verify the code yourself to your satisfaction you shouldn't use it, there are other ways to generate bitcoin addresses from dice with peer reviewed code.
 
 ## usage   
 `source makeaddress.sh`    
